@@ -5,11 +5,8 @@ import inspect
 import importlib
 import imp
 import copy
-import zipimport, zipfile
-import shutil
-import fnmatch
 from bpy.app.handlers import persistent
-from . import preferences
+from . import Preferences
 
 sys.path.append(os.path.dirname(__file__))
 sys.path.append(os.path.join(os.path.dirname(__file__),"lib"))

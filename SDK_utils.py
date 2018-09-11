@@ -20,6 +20,16 @@ import numpy
 
 ROOT = os.path.dirname(__file__)
 
+def registerpath():
+    frame = list(sys._current_frames().values())[0]
+    while True:
+        try:frame = frame.f_back
+        except:break
+        module = inspect.getmodule(frame)
+        if not module == None:
+            sys.path.append(os.path.dirname(module.__file__))
+            break
+            
 def get_stdin(msg=""):
     if sys.stdin.isatty():
         return input(msg)
