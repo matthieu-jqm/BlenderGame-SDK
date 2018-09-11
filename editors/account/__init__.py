@@ -1,16 +1,14 @@
-
-
-# bl_info = {
-#     "name": "ATOM Account",
-#     "author": config.AUTHOR,
-#     "version": (1, 0),
-#     "blender": (2, 78, 0),
-#     "location": "",
-#     "description": "Online account syncronizing service",
-#     "warning": "",
-#     "wiki_url": "",
-#     "category": "System",
-#     }
+bl_info = {
+    "name": "Account Editor",
+    "author": config.AUTHOR,
+    "version": (1, 0),
+    "blender": (2, 78, 0),
+    "location": "",
+    "description": "Online account syncronizing service",
+    "warning": "",
+    "wiki_url": "",
+    "category": "System",
+    }
 
 import sys, os
 

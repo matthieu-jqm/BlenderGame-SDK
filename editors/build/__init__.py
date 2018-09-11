@@ -38,7 +38,7 @@ if config.standalone:
     from . import FileManager, Properties, Types, utils
 
     bl_info = {
-        "name": "ATOM BuildTool",
+        "name": "Build editor",
         "author": "BluStroke®",
         "version": (1, 0),
         "blender": (2, 78, 0),

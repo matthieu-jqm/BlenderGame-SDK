@@ -32,12 +32,12 @@ config = ATOM_utils.Config(os.path.join(ROOT_PATH, "config.ini"), {"ADDON_ROOT":
 from . import RenderEngine, Properties
 
 bl_info = {
-    "name": "ATOM RenderEngine",
+    "name": "Render Editor",
     "author": "BluStroke®",
     "version": (1, 0),
     "blender": (2, 78, 0),
     "location": "",
-    "description": "Render engine for viewport",
+    "description": "",
     "warning": "",
     "wiki_url": "",
     "category": "System",

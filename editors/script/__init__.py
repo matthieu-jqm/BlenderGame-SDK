@@ -1,11 +1,11 @@
 
 bl_info = {
-    "name": "ATOM Scripts",
+    "name": "Script Editor",
     "author": "BluStroke®",
     "version": (1, 0),
     "blender": (2, 78, 0),
     "location": "",
-    "description": "Script manager for ATOM Engine",
+    "description": "",
     "warning": "",
     "wiki_url": "",
     "category": "System",

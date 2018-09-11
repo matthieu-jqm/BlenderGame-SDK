@@ -1,5 +1,5 @@
 bl_info = {
-    "name": "Procedural Editor",
+    "name": "Animation Editor",
     "author": "BluStroke®",
     "version": (1, 0),
     "blender": (2, 78, 0),
