@@ -34,7 +34,7 @@ config = utils.Config(os.path.join(ROOT_PATH, "config.ini"), ADDON_ROOT=ROOT_PAT
 # if __debug__:
 #     extentions = ATOM_utils.Addon.list_extentions(config.EXT_PATH)
 # else:
-from editors.legacy import build, input, physic, procedural, render, script, audio, account, network
+#from editors.legacy import build, input, physic, procedural, render, script, audio, account, network
 
 def register():
     preferences.register()
