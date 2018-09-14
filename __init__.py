@@ -7,8 +7,9 @@ import imp
 import copy
 from bpy.app.handlers import persistent
 from . import Preferences
+from SDK_utils import  *
+import SDK_utils.registerpath
 
-sys.path.append(os.path.dirname(__file__))
 sys.path.append(os.path.join(os.path.dirname(__file__),"lib"))
 
 import ATOM_Types
